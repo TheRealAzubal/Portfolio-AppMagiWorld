@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.Activities.PlayerTwoActivity">
+
+
+    <Button
+        android:id="@+id/buttonStartFourthActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="@string/play_game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="44dp"
+        android:text="@string/selectionn_les_caracteristiques_du_joueur_2"
+
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagePlayerTwo"
+        android:layout_width="291dp"
+        android:layout_height="270dp"
+        android:src="@drawable/image_guerrier"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:text="@string/guerrier"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:text="@string/rodeur"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:text="@string/mage"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="404dp"
+        android:text="@string/niveau"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="472dp"
+        android:text="@string/force"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="@string/intelligence"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="608dp"
+        android:text="@string/agilit"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/selectClassPlayerTwo"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="336dp"
+        android:stepSize="1"
+        android:valueFrom="1"
+        android:valueTo="3"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/selectLevelsPlayerTwo"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="424dp"
+        android:stepSize="5"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/selectStreightPlayerTwo"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="492dp"
+        android:stepSize="5"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/selectIntelligencePlayerTwo"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="560dp"
+        android:stepSize="5"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/selectAgilityPlayerTwo"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="628dp"
+        android:stepSize="5"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
