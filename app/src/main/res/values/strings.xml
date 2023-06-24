@@ -12,7 +12,6 @@
     <string name="bienvenue_sur_le_jeu_magiworld_pour_commencer_a_jouer_appuyer_sur_le_bouton_suivant_pour_cr_e_vos_personnage">Bienvenue sur le Jeu MagiWorld ,pour commencer a jouer appuyer sur le bouton suivant pour crée vos personnage</string>
     <string name="suivant">Suivant</string>
     <string name="selectionn_les_caracteristiques_du_joueur_1">Selectionné les caracteristiques du Joueur 1</string>
-    <string name="suivant">Suivant</string>
     <string name="guerrier">Guerrier</string>
     <string name="rodeur">Rodeur</string>
     <string name="mage">Mage</string>
@@ -21,12 +20,5 @@
     <string name="intelligence">Intelligence :</string>
     <string name="agilit">Agilité :</string>
     <string name="selectionn_les_caracteristiques_du_joueur_2">Selectionné les caracteristiques du Joueur 2</string>
-    <string name="guerrier">Guerrier</string>
-    <string name="rodeur">Rodeur</string>
-    <string name="mage">Mage</string>
-    <string name="niveau">Niveau :</string>
-    <string name="force">Force :</string>
-    <string name="intelligence">Intelligence :</string>
-    <string name="agilit">Agilité :</string>
     <string name="result">result</string>
 </resources>
