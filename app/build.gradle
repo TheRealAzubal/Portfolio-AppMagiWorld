@@ -5,7 +5,7 @@ plugins {
 android {
     namespace 'com.example.appmagiworld'
     compileSdkVersion 31
-    buildToolsVersion "30.0.2"
+    
 
     defaultConfig {
         applicationId "com.example.appmagiworld"
