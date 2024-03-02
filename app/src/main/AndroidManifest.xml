@@ -12,7 +12,8 @@
         <activity android:name=".Controllers.Activities.GameActivity" />
         <activity android:name=".Controllers.Activities.PlayerTwoActivity" />
         <activity android:name=".Controllers.Activities.PlayerOneActivity" />
-        <activity android:name=".Controllers.Activities.MainActivity" android:exported="true">
+        <activity android:name=".Controllers.Activities.MainActivity"
+            android:exported="true">
         
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
